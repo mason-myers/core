@@ -7,17 +7,16 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "core.Server/1.0.0": {
+      "logging.Server/1.0.0": {
         "dependencies": {
-          "CitizenFX.Core.Server": "1.0.7313",
-          "NETStandard.Library": "2.0.3",
-          "logging.Server.net": "1.0.0.0"
+          "CitizenFX.Core.Server": "1.0.7314",
+          "NETStandard.Library": "2.0.3"
         },
         "runtime": {
-          "core.Server.dll": {}
+          "logging.Server.dll": {}
         }
       },
-      "CitizenFX.Core.Server/1.0.7313": {
+      "CitizenFX.Core.Server/1.0.7314": {
         "runtime": {
           "lib/netstandard20/CitizenFX.Core.Server.dll": {
             "assemblyVersion": "0.0.0.0",
@@ -30,29 +29,21 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
-      },
-      "logging.Server.net/1.0.0.0": {
-        "runtime": {
-          "logging.Server.net.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
   "libraries": {
-    "core.Server/1.0.0": {
+    "logging.Server/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "CitizenFX.Core.Server/1.0.7313": {
+    "CitizenFX.Core.Server/1.0.7314": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dtWFl7qT/ejDJ/m9+Qdxr6zHhK+5pq4iXpWO7jJPWvJwqcq8p2GoAbDK2s7NncNqaGNUoyo7gVndHJT7vPnaeQ==",
-      "path": "citizenfx.core.server/1.0.7313",
-      "hashPath": "citizenfx.core.server.1.0.7313.nupkg.sha512"
+      "sha512": "sha512-zsvq0ExqbL6aKwEVMR737ID7wwTirrrnhKxIDhlve8hkVeusMnaVPDt2wIiD1EJVGDyH4FTGrxxmipGGg5oEkQ==",
+      "path": "citizenfx.core.server/1.0.7314",
+      "hashPath": "citizenfx.core.server.1.0.7314.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -67,11 +58,6 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
-    },
-    "logging.Server.net/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }
