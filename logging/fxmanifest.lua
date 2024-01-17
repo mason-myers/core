@@ -1,22 +1,11 @@
 fx_version 'bodacious'
 game 'gta5'
 
-author 'asmartcow'
+file 'Client/bin/Release/**/publish/*.dll'
+
+client_script 'Client/bin/Release/**/publish/*.net.dll'
+server_script 'Server/bin/Release/**/publish/*.net.dll'
+
+author 'You'
 version '1.0.0'
-description 'Core'
-
-files {
-	'Client/*.dll'
-}
-
-shared_scripts { 
-	'*.net.dll'
-}
-
-client_scripts { 
-	'Client/*.net.dll'
-}
-
-server_scripts { 
-	'Server/*.net.dll'
-}
+description 'Example Resource from C# Template'
